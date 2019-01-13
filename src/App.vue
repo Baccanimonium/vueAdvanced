@@ -1,14 +1,19 @@
 <template>
   <div id="app">
     asd
+    <PopularPost></PopularPost>
   </div>
 </template>
 
 <script>
+import PopularPost from './pages/MainPage/sections/popularPost'
 
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    PopularPost
+  }
 }
 </script>
 
-<style lang="scss" src="./styles/styles.scss" scoped />
+<styles lang="scss" src="./styles/styles.scss" scoped />

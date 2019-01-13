@@ -1,3 +1,78 @@
 {
-
+  "posts": [
+    {
+      "title": "Visiting Theme Parks Improves Your Health.",
+      "img": "/images/thumbs/small/wheel-150.jpg",
+      "author": "John Doe",
+      "date": "Dec 19, 2017",
+      "id": "1"
+    },
+    {
+      "title": "Key Benefits Of Family Photography.",
+      "img": "/images/thumbs/small/shutterbug-150.jpg",
+      "author": "John Doe",
+      "date": "Dec 19, 2017",
+      "id":  "2"
+    },
+    {
+      "title": "Absolutely No Sugar Oatmeal Cookies.",
+      "img": "/images/thumbs/small/cookies-150.jpg",
+      "author": "John Doe",
+      "date": "Dec 19, 2017",
+      "id":  "3"
+    },
+    {
+      "title": "Throwback To The Good Old Days.",
+      "img": "/images/thumbs/small/beetle-150.jpg",
+      "author": "John Doe",
+      "date": "Dec 19, 2017",
+      "id":  "4"
+    }
+  ],
+  "tagList": [
+    {
+      "name": "Salad",
+      "id": "1"
+    },
+    {
+      "name": "Recipe",
+      "id": "2"
+    },
+    {
+      "name": "Places",
+      "id": "3"
+    },
+    {
+      "name": "Tips",
+      "id": "4"
+    },
+    {
+      "name": "Friends",
+      "id": "5"
+    },
+    {
+      "name": "Travel",
+      "id": "6"
+    },
+    {
+      "name": "Exercise",
+      "id": "7"
+    },
+    {
+      "name": "Reading",
+      "id": "8"
+    },
+    {
+      "name": "Running",
+      "id": "9"
+    },
+    {
+      "name": "Self-Help",
+      "id": "10"
+    },
+    {
+      "name": "Vacation",
+      "id": "11"
+    }
+  ]
 }

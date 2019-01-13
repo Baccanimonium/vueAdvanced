@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "librebaskerville";
+  src: url("../../public/fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"),
+  url("../../public/fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "librebaskerville";
+  src: url("../../public/fonts/librebaskerville/librebaskerville-italic-webfont.woff2") format("woff2"),
+  url("../../public/fonts/librebaskerville/librebaskerville-italic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "librebaskerville";
+  src: url("../../public/fonts/librebaskerville/librebaskerville-bold-webfont.woff2") format("woff2"),
+  url("../../public/fonts/librebaskerville/librebaskerville-bold-webfont.woff") format("woff");
+  font-weight: 700;
+}
+
+/*
+ * metropolis
+================================================================================ */
+
+@font-face {
+  font-family: "metropolis";
+  src: url("../../public/fonts/metropolis/metropolis-extrabold-webfont.woff2") format("woff2"),
+  url("../../public/fonts/metropolis/metropolis-extrabold-webfont.woff") format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "metropolis";
+  src: url("../../public/fonts/metropolis/metropolis-bold-webfont.woff2") format("woff2"),
+  url("../../public/fonts/metropolis/metropolis-bold-webfont.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "metropolis";
+  src: url("../../public/fonts/metropolis/metropolis-semibold-webfont.woff2") format("woff2"),
+  url("../../public/fonts/metropolis/metropolis-semibold-webfont.woff") format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "metropolis";
+  src: url("../../public/fonts/metropolis/metropolis-medium-webfont.woff2") format("woff2"),
+  url("../../public/fonts/metropolis/metropolis-medium-webfont.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "metropolis";
+  src: url("../../public/fonts/metropolis/metropolis-regular-webfont.woff2") format("woff2"),
+  url("../../public/fonts/metropolis/metropolis-regular-webfont.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "metropolis";
+  src: url("../../public/fonts/metropolis/metropolis-regularitalic-webfont.woff2") format("woff2"),
+  url("../../public/fonts/metropolis/metropolis-regularitalic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "metropolis";
+  src: url("../../public/fonts/metropolis/metropolis-light-webfont.woff2") format("woff2"),
+  url("../../public/fonts/metropolis/metropolis-light-webfont.woff") format("woff");
+  font-weight: 300;
+}
+
+
+

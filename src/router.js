@@ -5,15 +5,11 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    // {
-    //   path: MAIN,
-    //   name: 'home',
-    //   component: Home
-    // },
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    // }
+    {
+      path: '/post-page/:id',
+      name: 'PostPage',
+      component: () => import('./pages/Post/index.vue'),
+      props: true
+    }
   ]
 })
