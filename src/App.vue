@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    asd
+    <PostList></PostList>
     <PopularPost></PopularPost>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import PopularPost from './pages/MainPage/sections/popularPost'
+import PostList from './pages/MainPage/sections/postList'
+import Footer from './pages/MainPage/sections/footer'
 
 export default {
   name: 'app',
   components: {
-    PopularPost
+    PopularPost,
+    PostList,
+    Footer
   }
 }
 </script>

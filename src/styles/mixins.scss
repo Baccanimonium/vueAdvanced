@@ -14,6 +14,8 @@ $greyHoverButton: #c4c4c4;
 $backgroundButton: #c5c5c5;
 $backgroundButtonHover: #b8b8b8;
 $backgroundTag: #e2e2e2;
+$backgroundPostList: #f2f2f2;
+$backgroundFooter: #19191b;
 
 
 
@@ -37,9 +39,12 @@ body {
   padding: 0;
 }
 .container {
-  width: 94%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.col {
+  padding: 0 15px;
 }
 
 a {
@@ -195,37 +200,37 @@ label > input[type="checkbox"], label > input[type="radio"] {
   top: .15rem;
 }
 
-.btn,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  height: 5.4rem;
-  line-height: 5rem;
-  padding: 0 3rem;
-  margin: 0 .3rem 1.2rem 0;
-  color: $black;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  border-radius: 3px;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: $backgroundButton;
-  border: .2rem solid $backgroundButton;
-  &:hover, &:focus {
-    background-color: $backgroundButtonHover;
-    border-color: $backgroundButtonHover;
-    color: $black;
-    outline: 0;
-  }
-}
+//.btn,
+//button,
+//input[type="submit"],
+//input[type="reset"],
+//input[type="button"] {
+//  display: inline-block;
+//  font-weight: 700;
+//  font-size: 1.2rem;
+//  text-transform: uppercase;
+//  letter-spacing: .3rem;
+//  height: 5.4rem;
+//  line-height: 5rem;
+//  padding: 0 3rem;
+//  margin: 0 .3rem 1.2rem 0;
+//  color: $black;
+//  text-decoration: none;
+//  text-align: center;
+//  white-space: nowrap;
+//  border-radius: 3px;
+//  cursor: pointer;
+//  -webkit-transition: all 0.3s ease-in-out;
+//  transition: all 0.3s ease-in-out;
+//  background-color: $backgroundButton;
+//  border: .2rem solid $backgroundButton;
+//  &:hover, &:focus {
+//    background-color: $backgroundButtonHover;
+//    border-color: $backgroundButtonHover;
+//    color: $black;
+//    outline: 0;
+//  }
+//}
 
 .btn.btn--primary,
 button.btn--primary,
