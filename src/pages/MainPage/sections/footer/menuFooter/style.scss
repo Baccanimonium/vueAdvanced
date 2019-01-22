@@ -1,0 +1,16 @@
+.footer-menu-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  .menu-item {
+    .menu {
+      margin-bottom: 3rem;
+      a {
+        display: block;
+        color: rgba(255, 255, 255, 0.4);
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}

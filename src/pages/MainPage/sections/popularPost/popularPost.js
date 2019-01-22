@@ -1,13 +1,18 @@
 import axios from 'axios'
-import { POST_URL } from '../../../../config'
+import { POST_URL } from '@/config'
+import { TAGS_URL } from '@/config'
 
 export default {
   state: {
-    postContent: []
+    postContent: [],
+    tagsList: []
   },
   mutations: {
     savePost (state, payload) {
       state.postContent = payload
+    },
+    saveTagsList (state, payload) {
+      state.tagsList = payload
     }
   },
   actions: {
@@ -18,11 +23,22 @@ export default {
       } catch (e) {
         console.log(e)
       }
+    },
+    async fetchTagsList ({ commit }) {
+      try {
+        const { data } = await axios.get(`${TAGS_URL}`)
+        commit('saveTagsList', data)
+      } catch (e) {
+        console.log(e)
+      }
     }
   },
   getters: {
     accessPost (state) {
       return state.postContent
+    },
+    accessTagsList (state) {
+      return state.tagsList
     }
   }
 }

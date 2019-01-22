@@ -27,17 +27,15 @@
       <div class="bottom">
         <h3>Tags</h3>
         <div class="tags">
-          <a href="#">Salad</a>
-          <a href="#">Recipe</a>
-          <a href="#">Places</a>
-          <a href="#">Tips</a>
-          <a href="#">Friends</a>
-          <a href="#">Travel</a>
-          <a href="#">Exercise</a>
-          <a href="#">Reading</a>
-          <a href="#">Running</a>
-          <a href="#">Self-Help</a>
-          <a href="#">Vacation</a>
+          <PrimaryButton
+            v-for="tag in TagsListArray"
+            :key="tag.id"
+            :value="tag.name"
+            @click="getTag"
+            class="tag-button"
+          >
+            {{tag.name}}
+          </PrimaryButton>
         </div>
       </div>
     </div>
@@ -46,17 +44,33 @@
 
 <script>
 import miniaturePost from './miniaturePost/index'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
 export default {
   name: 'index',
+  data () {
+    return {
+      tag: ''
+    }
+  },
   components: {
-    miniaturePost
+    miniaturePost,
+    PrimaryButton
   },
   beforeMount () {
     this.$store.dispatch('fetchPost')
+    this.$store.dispatch('fetchTagsList')
   },
   computed: {
     PostList () {
       return this.$store.getters.accessPost
+    },
+    TagsListArray () {
+      return this.$store.getters.accessTagsList
+    }
+  },
+  methods: {
+    getTag ({ target: { value } }) {
+      this.tag = value
     }
   }
 }

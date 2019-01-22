@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <TestReduce></TestReduce>
-    <!--<PopularPost></PopularPost>-->
-    <router-view></router-view>
+    <PostList></PostList>
+    <PopularPost></PopularPost>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import PopularPost from './pages/MainPage/sections/popularPost'
-import TestReduce from './pages/TestReduce'
+import PostList from './pages/MainPage/sections/postList'
+import Footer from './pages/MainPage/sections/footer'
 
 export default {
   name: 'app',
   components: {
-    PopularPost, TestReduce
+    PopularPost,
+    PostList,
+    Footer
   }
 }
 </script>
